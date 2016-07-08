@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Google Maps Demo</h1>
+      <div id="map"></div>
+      <script>
+        function initMap() {
+         var myLatlng = new google.maps.LatLng(33.9997995,  
+-84.62402379999997
+);
+		var mapOptions = {
+			zoom: 15,
+			center: myLatlng
+		}
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+		var marker = new google.maps.Marker({
+			position: myLatlng,
+			title:"Hello World!"
+});
+
+// To add the marker to the map, call setMap();
+marker.setMap(map);
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCev-wbTiv4eVhXJ42hC1IwBJJZcEzBD_8&callback=initMap">
+    </script>
+  </body>
+</html>

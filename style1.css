@@ -1,0 +1,122 @@
+h1{text-align:center;
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	color: #808080;
+}
+
+h3{text-align:center;
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	color: #808080;
+	border-bottom-style:solid;
+	border-color: #808080;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+h2{
+	margin-left:90px;
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
+body {
+    background-color: #fdffdc;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; 
+	color: #808080;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-right: 90px;
+    margin-left: 110px;
+	
+}
+table{
+	
+	width: 70%;
+	margin-left:20%;
+	margin-right:15%;
+	padding:3;
+	color: #808080;
+	text-align:left;
+	border-radius:5px
+}
+th,td{
+	overflow:hidden;
+	width:33%;
+	border-bottom:1px solid #808080;
+	border-radius:5px;
+}
+p{
+	margin-right: 90px;
+	margin-left: 90px;
+}
+ul{
+	list-style-type:none;
+	margin-left:39%;
+	padding:0;
+	overflow:hidden;
+	background-color: #fdffdc;
+	height:20%;
+}
+
+
+a{
+	display:block;
+	text-align:center;
+	width:150;
+	text-decoration:none;
+	
+}
+li a {
+	display:block;
+	color:#808080;
+	padding: 14px 16px;
+	text-decoration:none;	
+	text-align:center;
+	
+}
+li{
+	float:left;
+	border-right:1px solid #808080;
+	
+}
+li:last-child {
+    border-right: none;
+}
+li a:hover:not(.active){
+	background-color:#e3e5c5;
+}
+li a:active {
+	background-color:#c7c5e5;
+}
+.active {
+    background-color: #c7c5e5;
+}
+*{
+	margin:0;
+}
+html,body{
+	height:100%;
+}
+.wrapper{
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	margin:0 auto -4em;
+}
+.footer,.push{
+	height:4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
