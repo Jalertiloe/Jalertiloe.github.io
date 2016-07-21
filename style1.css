@@ -41,6 +41,7 @@ th,td{
 	width:33%;
 	border-bottom:1px solid #808080;
 	border-radius:5px;
+	text-align: justify;
 }
 p{
 	margin-right: 90px;
