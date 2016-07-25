@@ -18,8 +18,8 @@ h2{
 
 body {
     background-color: #fdffdc;
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; 
-	color: #808080;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; 
+    color: #808080;
     margin-top: 50px;
     margin-bottom: 200px;
     margin-right: 90px;
@@ -38,7 +38,7 @@ table{
 }
 th,td{
 	overflow:hidden;
-	width:100%;
+	width:45%;
 	border-bottom:1px solid #808080;
 	border-radius:5px;
 	text-align: justify;
