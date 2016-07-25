@@ -38,7 +38,7 @@ table{
 }
 th,td{
 	overflow:hidden;
-	width:33%;
+	width:100%;
 	border-bottom:1px solid #808080;
 	border-radius:5px;
 	text-align: justify;
