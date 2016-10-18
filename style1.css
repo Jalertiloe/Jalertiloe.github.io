@@ -1,9 +1,14 @@
-h1{text-align:center;
+h1{	
+	margin-left:150px;
+	margin-right:150px;
+	margin-top:150;
+
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	color: #808080;
 }
 
-h3{text-align:center;
+h3{	
+	text-align:center;
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	color: #808080;
 	border-bottom-style:solid;
