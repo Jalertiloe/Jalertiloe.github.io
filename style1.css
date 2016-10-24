@@ -57,6 +57,10 @@ ul{
 	overflow:hidden;
 	background-color: #ffffcf;
 	height:20%;
+	border-bottom-style:solid;
+	border-color: #ffffcf;
+	border-radius: 10px;
+	padding-bottom: 20px;
 }
 
 
