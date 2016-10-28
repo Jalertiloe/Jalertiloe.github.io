@@ -74,7 +74,7 @@ a{
 li a {
 	display:block;
 	color:#808080;
-	padding: 14px 16px;
+	padding: 14px 16px 0px 14px;
 	text-decoration:none;	
 	text-align:center;
 	
@@ -85,7 +85,7 @@ li{
 	
 }
 li:last-child {
-    border-right: none;
+    	border-right: none;
 }
 li a:hover:not(.active){
 	background-color:#e3e5c5;
@@ -94,7 +94,7 @@ li a:active {
 	background-color:#c7c5e5;
 }
 .active {
-    background-color: #c7c5e5;
+    	background-color: #c7c5e5;
 }
 *{
 	margin:0;
@@ -117,19 +117,3 @@ html,body{
 .text{
 	font-weight:bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
